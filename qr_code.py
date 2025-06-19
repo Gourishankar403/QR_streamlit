@@ -5,7 +5,7 @@ from io import BytesIO
 st.markdown("<h1 style='text-align: center; color: white;'>🌟 InstaQR 🌟</h1>", unsafe_allow_html=True)
 st.markdown("##### Generate beautiful, customizable QR codes instantly!", unsafe_allow_html=True)
 
-data=st.text_input("🔗 Enter the data URL for QR Code:")
+data=st.text_input("🔗 Enter the URL for QR Code:")
 
 fill_color=st.color_picker("🎨 Pick QR Code Color (Dots):", "#ffffff")
 back_color=st.color_picker("🎨 Pick Background Color:", "#ffffff")
