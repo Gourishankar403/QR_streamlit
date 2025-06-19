@@ -7,7 +7,7 @@ st.markdown("##### Generate beautiful, customizable QR codes instantly!", unsafe
 
 data=st.text_input("🔗 Enter the data (URL or Text) for QR Code:")
 
-fill_color=st.color_picker("🎨 Pick QR Code Color (Dots):", "#000000")
+fill_color=st.color_picker("🎨 Pick QR Code Color (Dots):", "#ffffff")
 back_color=st.color_picker("🎨 Pick Background Color:", "#ffffff")
 
 if st.button("✨ Generate My QR Code"):
